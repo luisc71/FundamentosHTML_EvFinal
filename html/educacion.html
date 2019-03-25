@@ -27,7 +27,68 @@
       <p>Caicedo Muñoz</p>
     <h3>Fecha y Lugar de Nacimiento:</h3>
       <p>Agosto 10 de 1970, Pasto (Nariño)</p>
-    <h2>Educación.</h2>
+    <h2>Educación</h2>
+    <table border="1">
+      <tr>
+        <th>Año</th>
+        <th>&nbspInstitución&nbsp</th>
+        <th>&nbspLugar&nbsp</th>
+        <th>&nbsp¿Culminó?&nbsp</th>
+      </tr>
+      <tr>
+        <td>&nbsp1997&nbsp</td>
+        <td>&nbspInstitución Universitaria "Antonio José Camacho" - Tecnología Electrónica</td>
+        <td>&nbspCali (Valle)</td>
+        <td>&nbspSí</td>
+      </tr>
+      <tr>
+        <td>&nbsp2005&nbsp</td>
+        <td>&nbspSmartNet - Microsoft Certified Desktop Supporting Technician (40 horas)</td>
+        <td>&nbspCali (Valle)</td>
+        <td>&nbspSí</td>
+      </tr>
+      <tr>
+        <td>&nbsp2011&nbsp</td>
+        <td>&nbspITIL Latinoamérica - Fundamentos de ITIL (40 horas)</td>
+        <td>&nbspCali (Valle)</td>
+        <td>&nbspSí</td>
+      </tr>
+      <tr>
+        <td>&nbsp2011&nbsp</td>
+        <td>&nbspServicio Nacional de Aprendizaje "SENA" - Variables y Estructuras en POO (40 horas)&nbsp</td>
+        <td>&nbspCali (Valle)</td>
+        <td>&nbspSí</td>
+      </tr>
+      <tr>
+        <td>&nbsp2015&nbsp</td>
+        <td>&nbspUniversidad Nacional Abierta y a Distancia "UNAD" - Ingeniería de Sistemas</td>
+        <td>&nbspPalmira (Valle)&nbsp</td>
+        <td>&nbspNo</td>
+      </tr>
+    </table>
+    <form autocomplete="on" name="Formulario Agregar Estudios">
+      <fieldset>
+        <legend><h2>Agregar Estudios</h2></legend>
+        <p>
+          <label for="Año">Año:</label>&nbsp
+          <select name="año">
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+          </select>
+        </p>
+        <p>
+          <label for="institucion">Institución:</label>&nbsp
+          <input type="text" name="institucion" id="institucion" placeholder="Instituto o Universidad" required>
+        </p>
+        <p>
+          <label for="lugar">Lugar:</label>&nbsp
+          <input type="text" name="lugar" id="lugar" size="40">
+        </p>
+        <input type="submit" value="Enviar">
+      </fieldset>
+    </form>
     <br><br>
     <nav>
       <a href="../index.html">Inicio</a>
